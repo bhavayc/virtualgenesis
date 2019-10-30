@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main(){
-    int x,y,z,m,l,p;
+    int x,y,z,m;
     scanf("%d %d",&x,&y);
-    for(int z=1;z<=x,z<=y;z++){
+    for(z=1;z<=x,z<=y;z++){
         if(x%z==0 && y%z==0){
             m=z;
         }
